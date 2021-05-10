@@ -1,9 +1,9 @@
-class Tree extends BaseClass {
-  constructor(x,y){
-    super(x,y,400,400);
- // this.image = loadImage("pluckingmangoestree.png");
-    
-
+class Tree{
+  constructor(x,y, width, height){
+  var options = {
+isStatic : true
+ }
+this.image = loadImage("")
   }
 
   display() {
